@@ -470,6 +470,9 @@ padding: 2.4rem 0;
         margin-bottom: 3rem;
 
     }
+    .hero-section-title{
+        margin-right: 6px;
+    }
     .right-nav{
         width: 100vw;
         height: 100vh;
