@@ -331,7 +331,7 @@ padding: 2.4rem 0;
 
 /* LG DESKTOP */
 @media only screen and (max-width:1200px){
-    .bars-btn{
+    button .bars-btn{
         display: none;
     }
 }
@@ -347,7 +347,7 @@ padding: 2.4rem 0;
     }
     .bars-btn{
         display: block;
-    }
+    }   
     .hero-section-img{
         display: none;
     }
@@ -378,6 +378,13 @@ padding: 2.4rem 0;
         flex-direction: column;
 
     }
+    .hero-section-text{
+        margin-right: 0;
+        justify-content: center;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
     .site-footer-logo{
         margin-bottom: 2rem;
     }
@@ -392,7 +399,7 @@ padding: 2.4rem 0;
     html{
         font-size: 55%;
     }
-    .services-section-item{
+    .services-section-item-img{
         width: 50%;
         height: auto;
     }
@@ -425,6 +432,6 @@ padding: 2.4rem 0;
         margin-top: 2rem;
 
     }
-    
+
 }
 
