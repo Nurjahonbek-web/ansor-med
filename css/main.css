@@ -458,7 +458,7 @@ padding: 2.4rem 0;
         flex-direction: column;
         text-align: center;
     }
-    footer.sitenav-item:not(:last-child){
+    .sitenav-item:not(:last-child){
         margin-right: 0;
         margin-bottom: 1rem;
     }
